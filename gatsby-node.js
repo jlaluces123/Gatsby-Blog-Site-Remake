@@ -9,6 +9,7 @@
 /* Using the createPage API so we can have the other pages like post-one rendered */
 const path = require("path"); // --> Node.JS module
 
+
 exports.createPages = ({ actions, graphql }) => { // --> registering our posts so we can use the urls in the frontmatter
   const { createPage } = actions
   const postTemplate = path.resolve("src/templates/post.js"); // --> Actual template form page
