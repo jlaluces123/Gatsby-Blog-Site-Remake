@@ -2,7 +2,7 @@ import React from "react";
 import { Link, graphql } from "gatsby"
 
 /* This is the component for the individual blog pages */
-export default Template = ({ data }) => {
+const Template = ({ data }) => {
   const post = data.markdownRemark
 
   return (
@@ -16,6 +16,8 @@ export default Template = ({ data }) => {
     </div>
   )
 }
+
+export default Template
 
 /* Need to create a query for the data now */
 /* markDownRemark frontmatter where the path === path brought in */
