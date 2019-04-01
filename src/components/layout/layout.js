@@ -9,8 +9,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
-import { Menu } from "./Menu"
+import Header from "../header/header.js"
+import { Menu } from "../menu/Menu.js"
 import "./layout.css"
 
 const Layout = ({ children }) => (
