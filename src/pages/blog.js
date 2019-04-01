@@ -12,11 +12,12 @@ const Blog = ({ data }) => {
         <h1>Latest Posts</h1>
         <div className = "map-wrapper">
 
-          {data.allMarkdownRemark.edges.map(post => (
+          {data.allMarkdownRemark.edges.reverse().map(post => (
             <div key = { post.node.id } className = "post-map-item">
               <h3>{post.node.frontmatter.title}</h3>
-              <small>Posted by: { post.node.frontmatter.author }</small>
-              <small>{ post.node.frontmatter.date }</small>
+              <p>{ post.node.frontmatter.description }</p>
+              <small>{ post.node.frontmatter.author }</small>              
+              <small>{ post.node.frontmatter.date } - { post.node.frontmatter.length }</small>              
               <Link to = {post.node.frontmatter.path}>Read More -></Link>
             </div>
           ))}
@@ -38,6 +39,8 @@ export const pageQuery = graphql`
             title
             date
             author
+            length
+            description
           }            
         }
       }
