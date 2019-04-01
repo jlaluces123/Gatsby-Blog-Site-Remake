@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import "./blog.css"
+
 const Blog = ({ data }) => {
   return (
     <div>
