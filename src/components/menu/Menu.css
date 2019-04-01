@@ -1,5 +1,17 @@
+.menu-component-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
 .page-nav {
   display: flex;
-  justify-content: space-evenly;  
-  width: 30%;
+  justify-content: space-evenly;
+  width: 20%;
+  list-style: none;
+}
+
+.nav-item {
+  text-decoration: none;
 }
