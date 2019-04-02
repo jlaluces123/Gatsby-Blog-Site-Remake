@@ -12,10 +12,12 @@ const Template = ({ data }) => {
     <div className = "template-wrapper">
       <Header />
       <div className = "article-box">
-        <Link to = "/blog">Go Back</Link>                      
-        <h1>{ post.frontmatter.title }</h1>
-        <h4 className = "post-author">{ post.frontmatter.author }</h4>
-        <small>{ post.frontmatter.date }</small>
+        <Link to = "/blog">Go Back</Link>
+        <div className = "title-box">
+          <h1>{ post.frontmatter.title }</h1>
+          <h4 className = "post-author">{ post.frontmatter.author }</h4>
+          <small>{ post.frontmatter.date }</small>
+        </div>                              
         <div dangerouslySetInnerHTML = {{ __html: post.html }} className = "html-block" /> {/* Allows for HTML markup inside */}
         </div>
     </div>

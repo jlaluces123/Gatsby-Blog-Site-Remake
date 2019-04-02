@@ -1,6 +1,6 @@
 ---
-path: "/post-three"
-date: "Apr 2"
+path: "/post-two"
+date: "Feb 22"
 length: "4 min"
 title: "Labs II: A 2-week Retrospective"
 author: "Jonathan Laluces"
