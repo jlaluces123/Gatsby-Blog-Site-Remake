@@ -16,7 +16,7 @@ const Template = ({ data }) => {
         <h1>{ post.frontmatter.title }</h1>
         <h4 className = "post-author">{ post.frontmatter.author }</h4>
         <small>{ post.frontmatter.date }</small>
-        <div dangerouslySetInnerHTML = {{ __html: post.html }} /> {/* Allows for HTML markup inside */}
+        <div dangerouslySetInnerHTML = {{ __html: post.html }} className = "html-block" /> {/* Allows for HTML markup inside */}
         </div>
     </div>
   )
