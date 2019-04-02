@@ -12,7 +12,7 @@ const Blog = ({ data }) => {
         <h1>Latest Posts</h1>
         <div className = "map-wrapper">
 
-          {data.allMarkdownRemark.edges.map(post => (
+          {data.allMarkdownRemark.edges.map(post => (            
             <div key = { post.node.id } className = "post-map-item">
               <h3>{post.node.frontmatter.title}</h3>
               <p>{ post.node.frontmatter.description }</p>
