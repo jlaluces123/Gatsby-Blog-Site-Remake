@@ -4,7 +4,7 @@ date: "Mar 8"
 length: "4 min"
 title: "Labs IV: Walking the Runway"
 author: "Jonathan Laluces"
-description: "Coming from the depths of 2005, our HTML looking website needed a face lift, pronto."
+description: "When approaching a deadline there is always more stuff that has to be done, and a lot of stress that accompanies it."
 ---
 
 ## Wrapping It All Up
