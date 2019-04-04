@@ -1,8 +1,12 @@
+.blog-root {
+  background-color: #7D8491;
+}
+
 .blog-list-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 10%;
+  margin: 0 10%;  
 }
 
 .map-wrapper {
