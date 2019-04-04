@@ -15,3 +15,10 @@
 .nav-item {
   text-decoration: none;
 }
+
+@media screen and (max-width: 900px) {
+  .page-nav {
+    width: 50%;
+    justify-content: space-evenly;
+  }
+}
