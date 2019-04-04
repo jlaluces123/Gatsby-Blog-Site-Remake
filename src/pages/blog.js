@@ -18,7 +18,12 @@ const Blog = ({ data }) => {
               <p>{ post.node.frontmatter.description }</p>
               <small>{ post.node.frontmatter.author }</small>              
               <small>{ post.node.frontmatter.date } - { post.node.frontmatter.length }</small>              
-              <Link to = {post.node.frontmatter.path}>Read More -></Link>
+              <Link to = {post.node.frontmatter.path} className = "read-more">
+                Read More
+                <svg style = {{ width : 24 , height : 24 }} viewBox="0 0 24 24">
+                  <path fill="#000000" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                </svg>
+              </Link>
             </div>
           ))}
 

@@ -1,5 +1,17 @@
-.image-wrapper {
-  background-image:url("../images/oc-gonzalez-448966-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
+.home-header {
+  text-align: center;
+}
+
+.home-paragraph {
+  text-align: center;
+}
+
+.all-posts {
+  border: 1px solid black;
+  padding: 10px 60px;
+}
+
+.all-posts:hover {
+  background-color: black;
+  color: white;
 }

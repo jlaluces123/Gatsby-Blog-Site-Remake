@@ -1,3 +1,7 @@
+.template-root {
+  background-color: #E9D2C0;
+}
+
 .template-wrapper {
   display: flex;
   justify-content: center;

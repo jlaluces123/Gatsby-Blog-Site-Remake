@@ -32,6 +32,10 @@ const Layout = ({ children }) => (
             maxWidth: 960,
             padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            height: "85vh",
           }}
         >          
           <main className = "main-element">{children}</main>          

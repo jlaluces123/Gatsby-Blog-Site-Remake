@@ -1,8 +1,12 @@
+.blog-root {
+  background-color: #7D8491;
+}
+
 .blog-list-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 10%;
+  margin: 0 10%;  
 }
 
 .map-wrapper {
@@ -21,4 +25,14 @@
   border-bottom: 1px solid lightgrey;  
   margin: 30px 0px;
   padding: 30px;
+}
+
+.read-more {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.read-more:hover {
+  border-bottom: none;
 }

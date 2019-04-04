@@ -13,6 +13,7 @@ There are many times in left where one finds absolute joy, and this week was def
 
 ---
 
+
 ## Walking the Runway
 
 Week four has finally dawned upon us, and that only means one thing: we have to sort a lot of the issues our app is facing. The list of things that needed to be done wasn't too bad:
