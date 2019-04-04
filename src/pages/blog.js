@@ -18,7 +18,7 @@ const Blog = ({ data }) => {
               <p>{ post.node.frontmatter.description }</p>
               <small>{ post.node.frontmatter.author }</small>              
               <small>{ post.node.frontmatter.date } - { post.node.frontmatter.length }</small>              
-              <Link to = {post.node.frontmatter.path}>Read More -></Link>
+              <Link to = {post.node.frontmatter.path} className = "read-more">Read More -></Link>
             </div>
           ))}
 
