@@ -55,6 +55,11 @@
 
 .summary-paragraph {
   font-size: 0.9rem;
+  margin-right: 15%;
+}
+
+.facts-list {
+  margin-right: 15%;
 }
 
 .facts-item {
