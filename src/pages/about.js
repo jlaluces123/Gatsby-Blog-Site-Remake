@@ -9,14 +9,14 @@ const About = (props) => {
   return (
     <div className = "about-page-wrapper">
       <Header />
-      <div className = "content-wrapper">      
+      <div className = "content-wrapper">          
         <div className = "large-img-wrapper left-side"> 
           <Img className = "profile-img" fluid={props.data.imageOne.childImageSharp.fluid} />          
         </div>
 
         <div className = "large-text-wrapper right-side">
-          <section className = "summary-wrapper">
-            <h3 className = "section-header">So Who Am I?</h3>
+          <section className = "summary-wrapper">   
+            <h3 className = "section-header">So Who Am I?</h3>             
             <p className = "summary-paragraph">This is where the summary goes</p>
           </section>
 
