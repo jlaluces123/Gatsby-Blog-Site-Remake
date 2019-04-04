@@ -12,8 +12,8 @@ export const Menu = () => {
       </ul>
 
       <ul className = "page-nav">
-        <li><Link to = "/" className = "nav-item">LinkedIn</Link></li>
-        <li><Link to = "/blog" className = "nav-item">Github</Link></li>        
+        <li><Link to = "https://www.github.com/jlaluces123" className = "nav-item">LinkedIn</Link></li>
+        <li><Link to = "https://www.linkedin.com/in/jonathan-laluces/" className = "nav-item">Github</Link></li>        
       </ul>
     </div>
   )
