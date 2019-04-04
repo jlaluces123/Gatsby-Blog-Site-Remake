@@ -9,6 +9,7 @@ const About = (props) => {
   return (
     <div className = "about-page-wrapper">
       <Header />
+      <h1 className = "page-title">About Me</h1>
       <div className = "content-wrapper">          
         <div className = "large-img-wrapper left-side"> 
           <Img className = "profile-img" fluid={props.data.imageOne.childImageSharp.fluid} />          
