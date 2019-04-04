@@ -27,6 +27,12 @@
   padding: 30px;
 }
 
+.read-more {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .read-more:hover {
   border-bottom: none;
 }
