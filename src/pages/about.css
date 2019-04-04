@@ -1,0 +1,39 @@
+.about-page-wrapper {
+  background: #E3DFDB;  /* fallback for old browsers */  
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  height: 100vh;  
+}
+
+.left-side {
+  width: 50%
+}
+
+.profile-img {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  /* width: 50%; */
+  align-items: center;
+  margin: 0 20%;
+  justify-content: center;
+  opacity: 0.8;
+  height: 80%;
+}
+
+
+.right-side {
+  width: 50%;
+}
+
+.large-text-wrapper {  
+  display: flex;  
+  flex-direction: column;  
+  justify-content: flex-start;  
+}
