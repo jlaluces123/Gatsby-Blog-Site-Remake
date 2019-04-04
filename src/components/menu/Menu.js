@@ -12,9 +12,8 @@ export const Menu = () => {
       </ul>
 
       <ul className = "page-nav">
-        <li><Link to = "/" className = "nav-item">Home</Link></li>
-        <li><Link to = "/blog" className = "nav-item">Blog</Link></li>
-        <li><Link to = "/about" className = "nav-item">About</Link></li>
+        <li><Link to = "/" className = "nav-item">LinkedIn</Link></li>
+        <li><Link to = "/blog" className = "nav-item">Github</Link></li>        
       </ul>
     </div>
   )
