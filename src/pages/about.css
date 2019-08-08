@@ -1,5 +1,5 @@
 .about-page-wrapper {
-  background: #E3DFDB;  /* fallback for old browsers */  
+  background: #E3DFDB;  /* fallback for old browsers */
 }
 
 .section-header {
@@ -19,47 +19,22 @@
   flex-direction: row;
   width: 100%;
   justify-content: space-evenly;
-  height: auto;  
+  height: auto;
 }
 
-.large-img-wrapper {
+.large-text-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.left-side {
-  width: 50%
-}
-
-.profile-img {
-  width: 70%;
-  position: relative;
-  overflow: hidden;
-  border-radius: 60%;
-  margin: 0 20%;
-  opacity: 0.8;
-  height: 90%;
-}
-
-
-.right-side {
-  width: 50%;
-}
-
-.large-text-wrapper {  
-  display: flex;  
-  flex-direction: column;  
-  justify-content: center;  
+  margin: 0 9%;
 }
 
 .summary-paragraph {
   font-size: 0.9rem;
-  margin-right: 15%;
 }
 
 .facts-list {
-  margin-right: 15%;
+  margin-left: 1rem;
 }
 
 .facts-item {
